@@ -1,0 +1,46 @@
+libtext-levenshteinxs-perl (0.03-4) unstable; urgency=low
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * debian/control: change Vcs-Browser field (source stanza).
+  * Strip trailing slash from metacpan URLs.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Remove dead link from package description (Closes: #695978)
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Florian Schlichting ]
+  * Switch dh compatibility to level 9 to enable passing of hardening flags
+  * Declare compliance with Debian Policy 3.9.5
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 24 Apr 2014 20:58:08 +0200
+
+libtext-levenshteinxs-perl (0.03-3) unstable; urgency=low
+
+  * Take over for the Debian Perl Group; Closes: #624444 -- RFA/ITA
+  * debian/control: Added: Vcs-Svn field (source stanza). Changed:
+    Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Adrian von Bidder
+    <cmot@debian.org>).
+  * Don't install README anymore.
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.9.2 (no changes).
+  * Bump debhelper compatibility level to 8.
+  * Clean up debian/copyright a bit.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 29 Apr 2011 02:11:18 +0200
+
+libtext-levenshteinxs-perl (0.03-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Adrian von Bidder <cmot@debian.org>  Wed, 6 Apr 2011 13:54:19 +0200
